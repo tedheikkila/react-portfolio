@@ -15,10 +15,6 @@
 /* nav */
 .nav {
     margin-left: 30%;
-
-    @media (max-width: 600px) {
-        margin-left: 10px;
-      }
 }
 
 .nav-list a {
@@ -61,6 +57,7 @@
     bottom: 0;
     left: 0;
     padding-top: 50px;
+
 }
 
 .portfolio-footer a {
@@ -68,11 +65,17 @@
     text-decoration: none;
     padding: 20px;
     margin-left: 50px;
-
 }
 
 .portfolio-footer a:hover {
     text-decoration: underline;
     color: white
 }
+
+@media screen and (max-width: 600px) {
+    .portfolio-footer a, .nav-list a
+     {
+       margin-left: -33%;
+    }
+  } 
 
