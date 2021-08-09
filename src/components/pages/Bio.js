@@ -2,16 +2,32 @@ import '../../App.css';
 
 export default function Bio() {
   return (
-    <div>
-      <h1>Bio</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className="bio-container">
+      <div className="card-group">
+        <div className="card">
+          <div className="card-body">
+            <h4 className="card-title">Card title</h4>
+            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div className="card" id="img-card">
+          <img className="card-img-top" src="/assets/images/avatar.png" alt="Avatar Icon" height="300" />
+          <div className="card-body">
+            <h4 className="card-title">Card title</h4>
+            <p className="card-text">
+              Some quick example text to build on the card title
+              and make up the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-body">
+            <h4 className="card-title">Card title</h4>
+            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }

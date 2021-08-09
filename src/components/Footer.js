@@ -8,7 +8,9 @@ function Footer() {
             <ul className="nav">
                 <li className="nav-item">
                     <a
-                        href="#/"
+                        href="https://github.com/tedheikkila"
+                        target="_blank"
+                        rel="noreferrer"
                         onClick={() => ('')}
                     >
                         GitHub
@@ -16,18 +18,12 @@ function Footer() {
                 </li>
                 <li className="nav-item">
                     <a
-                        href="#/"
+                        href="https://www.linkedin.com/in/ted-heikkila-96b60520b/"
+                        target="_blank"
+                        rel="noreferrer"
                         onClick={() => ('')}
                     >
                         LinkedIn
-                    </a>
-                </li>
-                <li className="nav-item">
-                    <a
-                        href="#/"
-                        onClick={() => ('')}
-                    >
-                        Instagram
                     </a>
                 </li>
             </ul>

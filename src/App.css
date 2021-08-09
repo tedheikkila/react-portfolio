@@ -31,6 +31,23 @@
     color: white
 }
 
+/* bio */
+.bio-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+#img-card  {
+    background-color: black;
+    color: white
+}
+
+.card-img-top {
+    border-radius: 20px;
+}
+
 /* contact */
 .form {
     margin: 20px;
@@ -64,7 +81,7 @@
     color: white;
     text-decoration: none;
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .portfolio-footer a:hover {
@@ -72,6 +89,7 @@
     color: white
 }
 
+/* screens */
 @media screen and (max-width: 600px) {
     .portfolio-footer a, .nav-list a
      {
