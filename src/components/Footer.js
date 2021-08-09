@@ -5,7 +5,7 @@ import '../App.css'
 function Footer() {
     return (
         <footer className="portfolio-footer">
-            <ul className="nav">
+            <ul className="nav justify-content-center">
                 <li className="nav-item">
                     <a
                         href="https://github.com/tedheikkila"

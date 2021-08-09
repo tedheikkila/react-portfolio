@@ -13,10 +13,6 @@
 }
 
 /* nav */
-.nav {
-    margin-left: 30%;
-}
-
 .nav-list a {
     font-size: 30px;
     color: white;
@@ -104,7 +100,6 @@
     color: white;
     text-decoration: none;
     padding: 20px;
-    margin-left: 100px;
 }
 
 .portfolio-footer a:hover {

@@ -7,7 +7,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         Ted Heikkila
       </h2>
       
-      <ul className="nav nav-list">
+      <ul className="nav nav-list justify-content-center">
         <li className="nav-item">
           <a
             href="#bio"
