@@ -1,4 +1,4 @@
-import './navTabs.css'
+import '../App.css'
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (

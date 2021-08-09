@@ -1,6 +1,6 @@
 
 
-import './footer.css'
+import '../App.css'
 
 function Footer() {
     return (

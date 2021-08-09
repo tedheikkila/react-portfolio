@@ -1,4 +1,4 @@
-import './bio.css';
+import '../../App.css';
 
 export default function Bio() {
   return (
