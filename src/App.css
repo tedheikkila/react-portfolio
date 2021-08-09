@@ -39,13 +39,36 @@
     margin-top: 5%;
 }
 
+.card {
+    margin: 30px; 
+    margin-top: -20px;    
+}
+
+.card-title {
+    color:rgb(36, 92, 196)
+}
+
+#status-title {
+    color: white
+}
+
 #img-card  {
     background-color: black;
     color: white
 }
 
-.card-img-top {
-    border-radius: 20px;
+#hobbies-header, #interests-header {
+    background-color: black;
+    color: white
+}
+
+#hobbies-body {
+    font-size: 20px
+}
+
+#even-hobbies {
+    background-color: rgb(36, 92, 196);
+    color: white
 }
 
 /* contact */
