@@ -5,7 +5,7 @@ import './footer.css'
 function Footer() {
     return (
         <footer className="portfolio-footer">
-            <ul className="nav nav-tabs">
+            <ul className="nav">
                 <li className="nav-item">
                     <a
                         href="#/"
