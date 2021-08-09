@@ -1,23 +1,91 @@
 
 export default function Apps() {
   return (
-    <div>
-      <h1>Apps</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+    <section class="apps justify-content-center">
+      <div class="semantics">
+        <a href=" https://tedheikkila.github.io/semantic-tags" target="_blank">
+          <img src="./assets/images/semantic-tags.png" width="320" height="270" alt="Semantic Tags" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/semantic-tags" target="_blank">Semantic Tags - HTML/CSS</a></p>
+      </div>
+      <div class="password-gen">
+        <a href="https://tedheikkila.github.io/password-generator" target="_blank">
+          <img src="./assets/images/password.png" width="320" height="270" alt="Password Generator" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/password-generator" target="_blank">Password Generator - Js</a></p>
+      </div>
+      <div class="coding-quiz">
+        <a href="https://tedheikkila.github.io/coding-quiz" target="_blank">
+          <img src="./assets/images/quiz.png" width="320" height="270" alt="Coding Quiz" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/coding-quiz" target="_blank">Coding Quiz - HTML/CSS/Js</a></p>
+      </div>
+      <div class="daily-planner">
+        <a href="https://tedheikkila.github.io/daily-planner" target="_blank">
+          <img src="./assets/images/planner.png" width="320" height="270" alt="Daily Planner" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/daily-planner" target="_blank">Daily Planner - Moment/jQ</a></p>
+      </div>
+      <div class="weather-dashboard">
+        <a href="https://tedheikkila.github.io/weather-dashboard" target="_blank">
+          <img src="./assets/images/weather.png" width="320" height="270" alt="Weather Dashboard" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/weather-dashboard" target="_blank">Weather Dashboard - API/Js</a></p>
+      </div>
+      <div class="movie-pop">
+        <a href="https://tedheikkila.github.io/movie-pop" target="_blank">
+          <img src="./assets/images/movie.png" width="320" height="270" alt="Movie Pop" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/movie-pop" target="_blank">Movie Pop - B/Js/API</a></p>
+      </div>
+      <div class="readme-generator">
+        <a href="https://tedheikkila.github.io/readme-generator" target="_blank">
+          <img src="./assets/images/readme-gen.png" width="320" height="270" alt="Readme Generator" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/readme-generator" target="_blank">Readme Generator - Node/Md</a></p>
+      </div>
+      <div class="team-generator">
+        <a href="https://github.com/tedheikkila/team-generator" target="_blank">
+          <img src="./assets/images/team-gen.png" width="320" height="270" alt="Team Generator" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/team-generator" target="_blank">Team Generator - Jest/Inq</a></p>
+      </div>
+      <div class="note">
+        <a href="https://fatidique-saucisson-41554.herokuapp.com/" target="_blank">
+          <img src="./assets/images/note.png" width="320" height="270" alt="Note Taker" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/note-taker" target="_blank">Note Taker - Express/Heroku</a></p>
+      </div>
+      <div class="employee">
+        <a href="https://github.com/tedheikkila/employee-tracker" target="_blank">
+          <img src="./assets/images/employee.png" width="320" height="270" alt="Employee Tracker" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/employee-tracker" target="_blank">Employee Tracker - MySQL/Inq</a></p>
+      </div>
+      <div class="e-commerce">
+        <a href="https://github.com/tedheikkila/e-commerce" target="_blank">
+          <img class="e-commerce" src="./assets/images/e-commerce.png" width="320" height="270" alt="E-Commerce" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/e-commerce" target="_blank">E-Commerce - MySQL/Postman</a></p>
+      </div>
+      <div class="tech-blog">
+        <a href="https://aqueous-taiga-82354.herokuapp.com/" target="_blank">
+          <img src="./assets/images/tech-blog.png" width="320" height="270" alt="Tech Blog" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/tech-blog" target="_blank">Tech Blog - MVC/Sqlize</a></p>
+      </div>
+      <div class="one-track">
+        <a href="https://arcane-castle-03954.herokuapp.com/" target="_blank">
+          <img src="./assets/images/one-track.png" width="320" height="270" alt="One Track" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/one-track" target="_blank">One Track - MVC/Handlebars</a></p>
+      </div>
+      <div class="workout-tracker">
+        <a href="https://enigmatic-ravine-88709.herokuapp.com/" target="_blank">
+          <img src="./assets/images/workout-tracker.png" width="320" height="270" alt="Workout Tracker" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/workout-tracker" target="_blank">Workout Tracker - Mongo/Express</a></p>
+      </div>
+    </section>
   );
 }

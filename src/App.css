@@ -67,6 +67,45 @@
     color: white
 }
 
+/* apps */
+.apps {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.apps div {
+    margin: 2%;
+    margin-bottom: 5%;
+}
+
+.apps a {
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+}
+
+.apps p {
+    margin-top: 15px;
+}
+
+.apps a:hover {
+    color: rgb(36, 92, 196);
+}
+
+.apps img {
+    border-radius: 20px;
+}
+
+.apps img:hover {
+    filter: saturate(150%);
+    box-shadow: 0 6px 15px 0 rgb(36, 92, 196)
+}
+  
 /* contact */
 .form {
     margin: 20px;
@@ -88,12 +127,11 @@
     text-align: center;
     font-size:25px;
     padding:10px;
-    margin-top:300px;
+    margin-top:50px;
     border-top: solid 20px rgb(36, 92, 196);
     bottom: 0;
     left: 0;
     padding-top: 50px;
-
 }
 
 .portfolio-footer a {
@@ -112,6 +150,13 @@
     .portfolio-footer a, .nav-list a
      {
        margin-left: -33%;
+    }
+  } 
+
+@media screen and (max-width: 600px) {
+    .apps
+     {
+       justify-content: center;
     }
   } 
 
