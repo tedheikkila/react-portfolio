@@ -32,12 +32,11 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-bottom: 100px
 }
 
 .card {
     margin: 30px; 
-    margin-top: -20px;    
 }
 
 .card-title {
