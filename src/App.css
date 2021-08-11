@@ -131,7 +131,7 @@
 }
 
 .thead-title {
-    border-bottom: solid black 10px;
+    border-bottom: solid black 8px;
 }
 
 #table-container td:hover {
@@ -151,7 +151,6 @@ tr {
 .resume-link{
     text-decoration: none;
 }
-
 
 /* footer */
 .portfolio-footer {
