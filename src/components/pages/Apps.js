@@ -86,6 +86,12 @@ export default function Apps() {
         </a>
         <p><a href="https://github.com/tedheikkila/workout-tracker" target="_blank" rel="noreferrer">Workout Tracker - Mongo/Express</a></p>
       </div>
+      <div class="ez-budget">
+        <a href="https://ancient-shelf-54596.herokuapp.com/" target="_blank" rel="noreferrer">
+          <img src="./assets/images/ez-budget.png" width="320" height="270" alt="EZ Budget" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/ez-budget" target="_blank" rel="noreferrer">EZ Budget - PWA/IndexedDB</a></p>
+      </div>
     </section>
   );
 }

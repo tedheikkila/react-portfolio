@@ -2,19 +2,43 @@
 export default function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <h2 className="tech-table-title">Acquired Tech</h2>
+      <table className="table table-borderless" id="table-container">
+        <thead className="thead-title">
+          <tr>
+            <th>Browser</th>
+            <th>Server</th>
+            <th>Database</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Node</td>
+            <td>MySQL/Workbench</td>
+          </tr>
+          <tr>
+            <td>CSS/Bootstrap</td>
+            <td>Express</td>
+            <td>MongoDB/Atlas/Robo 3T</td>
+          </tr>
+          <tr>
+            <td >Javascript/jQuery</td>
+            <td>API (REST/GraphQL)</td>
+            <td>IndexedDB</td>
+          </tr>
+          <tr>
+            <td >Handlebars</td>
+            <td>Sequelize/Mongoose</td>
+          </tr>
+          <tr>
+            <td >React</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 className="resume">
+        <a class="resume-link" href="https://drive.google.com/file/d/1YA0iQnUAhv61c9eDHVbo_K7B9ZPgxyfm/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+      </h2>
     </div>
   );
 }
