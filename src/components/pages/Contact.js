@@ -3,6 +3,9 @@ import '../../App.css';
 
 import { validateEmail } from '../../utils/helpers';
 
+// exports contact component (handles name, email, message)
+// displays error or sucess message depending upon user input
+// uses validateEmail helper for user's email input 
 export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

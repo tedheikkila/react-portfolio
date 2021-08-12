@@ -1,4 +1,6 @@
 
+// exporting apps in the form of img link tags for deployed apps
+// & p link tags for their associated GitHub repos
 export default function Apps() {
   return (
     <section class="apps justify-content-center">

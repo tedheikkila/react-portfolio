@@ -1,7 +1,7 @@
 
-
 import '../App.css'
 
+// footer w/GitHub and LinkedIn icons
 function Footer() {
     return (
         <footer className="portfolio-footer">

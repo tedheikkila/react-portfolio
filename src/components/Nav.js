@@ -1,5 +1,6 @@
 import '../App.css'
 
+// four nav tabs (bio, apps, contact, resume); if on page disables that link
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="header">

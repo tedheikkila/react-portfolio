@@ -1,5 +1,6 @@
 import '../../App.css';
 
+// exports 3 bio-related cards
 export default function Bio() {
   return (
     <div className="bio-container">

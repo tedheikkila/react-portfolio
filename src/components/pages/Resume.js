@@ -1,4 +1,5 @@
 
+// exports table w/tech proficiencies and link to pdf resume
 export default function Resume() {
   return (
     <div>

@@ -38,16 +38,21 @@ uses React to publish portfolio (bio, apps, contact, resume)
 
 * home/bio
 
-    ![](./public/images/hw20-1.png)
-
+    ![](./public/assets/screenshots/rp-1.png)
+  
 * apps
 
-   ![](./public/images/hw20-2.png)
+    ![](./public/assets/screenshots/rp-2.png)
 
 * contact
 
-    ![](./public/images/hw20-3.png)
+    ![](./public/assets/screenshots/rp-3.png)
 
 * resume
 
-    ![](./public/images/hw20-4.png)
+    ![](./public/assets/screenshots/rp-4.png)
+
+
+
+
+
