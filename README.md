@@ -1,5 +1,5 @@
 # react-portfolio
-uses React to publish portfolio (bio, apps, contact, resume)
+uses React to publish portfolio containing bio, apps, contact, resume
 
   ## Table of Contents
 
@@ -12,19 +12,17 @@ uses React to publish portfolio (bio, apps, contact, resume)
 
   ## Description
 
-  This is a PC and mobile app designed to function as a React-based professional portfolio. Here a potential employer or collaborator can view my bio, apps, contact form, and resume to evaluate work and deem suitability within a project or organization. 
+  This is a PC and mobile app designed to function as a professional portfolio using React. Here a potential employer or collaborator can view my bio, apps, and resume to evaluate work and deem suitability within a project or organization. If the fit seems right, they can reach out by completing the contact form. 
   
   ## Technologies:
 
-  * Front-end: React, HTML, CSS, Bootstrap, Google Fonts, Javascript, Jsx
-  * Back-end: N/A
-  * Dev-deps: React
+  * Front-end: React/Jsx, HTML, CSS, Bootstrap, Javascript
+  * Back-end: none
+  * Dev-deps: Chrome's dev tools
 
   ## Deployment:
 
-  Check the portfolio on Heroku:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)]()
+  Check the portfolio on GitHub Pages:
 
   ## License
   
