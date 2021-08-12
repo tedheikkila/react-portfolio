@@ -12,7 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#bio"
             onClick={() => handlePageChange('Bio')}
-            className={currentPage === 'Bio' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Bio' ? 'nav-link disabled' : 'nav-link'}
           >
             Bio
           </a>
@@ -21,7 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#Apps"
             onClick={() => handlePageChange('Apps')}
-            className={currentPage === 'Apps' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Apps' ? 'nav-link disabled' : 'nav-link'}
           >
             Apps
           </a>
@@ -30,7 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Contact' ? 'nav-link disabled' : 'nav-link'}
           >
             Contact
           </a>
@@ -40,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#resume"
             onClick={() => handlePageChange('Resume')}
 
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Resume' ? 'nav-link disabled' : 'nav-link'}
           >
             Resume
           </a>
