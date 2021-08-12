@@ -43,7 +43,7 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className="form-container">
       <h3>Hello {name}</h3>
       <form className="form">
         <div className="form-group row">
@@ -90,7 +90,7 @@ export default function Contact() {
         </div>
         <div className="form-group row">
           <div className="col-sm-10 offset-sm-2">
-            <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
+            <button type="button" className="btn btn-primary" id="form-btn" onClick={handleFormSubmit}>Submit</button>
           </div>
         </div>
       </form>

@@ -106,8 +106,15 @@
 }
   
 /* contact */
+.form-container {
+    text-align: center;
+}
+
 .form {
     margin: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .form input {
@@ -115,6 +122,23 @@
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
+    margin-left: 30px;
+    font-size: 20px
+}
+
+#input-name, #input-email, #input-message {
+    width: 90%;
+}
+
+#input-message {
+    height: 100px;
+}
+
+#form-btn {
+    margin-top: 20px;
+    padding: 20px;
+    width: 90%;
+    font-size: 20px;
 }
 
 /* resume */ 
