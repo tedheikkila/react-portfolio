@@ -152,6 +152,10 @@ tr {
     text-decoration: none;
 }
 
+.resume-link:hover {
+    color: black
+}
+
 /* footer */
 .portfolio-footer {
     background-color: black;
