@@ -49,7 +49,7 @@ export default function Contact() {
 
   return (
     <div className="form-container">
-      <h3>Hello {name}</h3>
+      <h3 id="form-greeting">Hi {name}</h3>
       <form className="form">
         <div className="form-group row">
           <label for="input-name" className="col-sm-2 col-form-label">Name</label>

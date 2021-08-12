@@ -209,17 +209,21 @@ tr {
 }
 
 /* screens */
-@media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
+    #form-btn
+     {
+       margin-left: 12%;
+    }
     .portfolio-footer a, .nav-list a
      {
-       margin-left: -33%;
+       font-size: 24px;
     }
-  } 
+    #form-greeting {
+        margin-left: -8%;
+    }
+    #table-container {
+        font-size: 15px;
+    }
 
-@media screen and (max-width: 600px) {
-    .apps
-     {
-       justify-content: center;
-    }
   } 
 
