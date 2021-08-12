@@ -9,8 +9,16 @@
 .name-title {
     padding: 20px;
     background-color: black;
-    font-size: 50px
+    font-size: 50px;
+    animation-name: title;
+    animation-duration: 2s
 }
+
+  @keyframes title {
+    0%   {background-color: black;}
+    50%  {background-color: rgb(36, 92, 196);}
+    100% {background-color: black;}
+  } 
 
 /* nav */
 .nav-list a {
