@@ -8,6 +8,7 @@ export default function Contact() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState('')
 
   const handleInputChange = (e) => {
     const { target } = e;
@@ -38,11 +39,12 @@ export default function Contact() {
       return
     }
 
-    // put toast here (indicating successful form submission)
+    setSuccessMessage('Thanks. Contact me via email:')
 
     setName('');
     setEmail('');
     setMessage('');
+
   };
 
   return (
@@ -97,6 +99,13 @@ export default function Contact() {
           </div>
         </div>
       </form>
+
+      {successMessage && (
+        <div>
+          <h5 className="success-text">{successMessage}</h5>
+          <h5 class="email"><a href="mailto:ted.heikkila@gmail.com">ted.heikkila@gmail.com</a></h5>
+        </div>
+      )}
 
       {errorMessage && (
         <div>
