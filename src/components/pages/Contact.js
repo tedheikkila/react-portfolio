@@ -37,9 +37,11 @@ export default function Contact() {
     } else if (!message) {
       setErrorMessage('Please type a message')
       return
-    }
+    } 
 
     setSuccessMessage('Thanks. Contact me via email:')
+
+    setErrorMessage('')
 
     setName('');
     setEmail('');
