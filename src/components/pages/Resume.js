@@ -37,7 +37,7 @@ export default function Resume() {
         </tbody>
       </table>
       <h2 className="resume">
-        <a class="resume-link" href="https://drive.google.com/file/d/1YA0iQnUAhv61c9eDHVbo_K7B9ZPgxyfm/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+        <a class="resume-link" href="https://drive.google.com/file/d/1YA0iQnUAhv61c9eDHVbo_K7B9ZPgxyfm/view?usp=sharing" target="_blank" rel="noreferrer">pdf Resume</a>
       </h2>
     </div>
   );

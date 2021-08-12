@@ -11,7 +11,7 @@
     background-color: black;
     font-size: 50px;
     animation-name: title;
-    animation-duration: 2s
+    animation-duration: 3s
 }
 
   @keyframes title {
@@ -31,7 +31,8 @@
 }
 
 .nav-list a:hover {
-    text-decoration: underline;
+    border-radius: 50px;
+    box-shadow: 0px 0px 3px 0px white;
     color: white
 }
 
@@ -150,6 +151,10 @@
     font-size: 20px;
     margin-bottom: 30px;
     margin-left: 20px;
+}
+
+.error-text {
+    color: gray
 }
 
 /* resume */ 
