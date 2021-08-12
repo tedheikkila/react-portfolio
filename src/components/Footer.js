@@ -13,7 +13,7 @@ function Footer() {
                         rel="noreferrer"
                         onClick={() => ('')}
                     >
-                        GitHub
+                        <img id="nav-icon" src="./assets/icons/github.png" width="60" height="60" alt="GitHub Profile" />
                     </a>
                 </li>
                 <li className="nav-item">
@@ -23,7 +23,7 @@ function Footer() {
                         rel="noreferrer"
                         onClick={() => ('')}
                     >
-                        LinkedIn
+                        <img id="nav-icon" src="./assets/icons/linkedin.png" width="60" height="60" alt="LinkedIn Profile" />
                     </a>
                 </li>
             </ul>
