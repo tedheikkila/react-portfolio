@@ -37,6 +37,9 @@ export default function Contact() {
       setErrorMessage('Please type a message')
       return
     }
+
+    // put toast here (indicating successful form submission)
+
     setName('');
     setEmail('');
     setMessage('');
@@ -97,7 +100,7 @@ export default function Contact() {
 
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <h5 className="error-text">{errorMessage}</h5>
         </div>
       )}
     </div>

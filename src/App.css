@@ -113,8 +113,8 @@
 .form {
     margin: 20px;
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 21%;
+    margin-right: 29%;
 }
 
 .form input {
@@ -139,6 +139,7 @@
     padding: 20px;
     width: 90%;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 
 /* resume */ 
