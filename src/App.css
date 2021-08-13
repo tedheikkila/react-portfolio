@@ -10,15 +10,15 @@
     padding: 20px;
     background-color: black;
     font-size: 50px;
-    animation-name: title;
-    animation-duration: 3s
+    /* animation-name: title;
+    animation-duration: 3s */
 }
 
-  @keyframes title {
+  /* @keyframes title {
     0%   {background-color: black;}
     50%  {background-color: rgb(36, 92, 196);}
     100% {background-color: black;}
-  } 
+  }  */
 
 /* nav */
 .nav-list a {

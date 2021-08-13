@@ -57,7 +57,7 @@ export default function Contact() {
       <h3 id="form-greeting">Hi {name}</h3>
       <form className="form">
         <div className="form-group row">
-          <label for="input-name" className="col-sm-2 col-form-label">Name</label>
+          <label htmlFor="input-name" className="col-sm-2 col-form-label">Name</label>
           <div className="col-sm-10">
             <input
               value={name}
@@ -71,7 +71,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="form-group row">
-          <label for="input-email" className="col-sm-2 col-form-label">Email</label>
+          <label htmlFor="input-email" className="col-sm-2 col-form-label">Email</label>
           <div className="col-sm-10">
             <input
               className="form-control"
@@ -85,7 +85,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="form-group row">
-          <label for="input-message" class="col-sm-2 col-form-label">Message</label>
+          <label htmlFor="input-message" className="col-sm-2 col-form-label">Message</label>
           <div className="col-sm-10">
             <input
               type="text"
@@ -108,7 +108,7 @@ export default function Contact() {
       {successMessage && (
         <div>
           <h5 className="success-text">{successMessage}</h5>
-          <h5 class="email"><a href="mailto:ted.heikkila@gmail.com">ted.heikkila@gmail.com</a></h5>
+          <h5 className="email"><a href="mailto:ted.heikkila@gmail.com">ted.heikkila@gmail.com</a></h5>
         </div>
       )}
 
