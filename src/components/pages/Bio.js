@@ -19,8 +19,7 @@ export default function Bio() {
           </div>
         </div>
         <div className="card" id="img-card">
-          <img className="card-img-top img-fluid" 
-                src="/assets/images/ez-budget.png" alt="Avatar Icon"/>
+          <img className="avatar-img" src="/assets/images/avatar.png" height="300" width="200" alt="Avatar Icon"/>
           <div className="card-body">
             <h4 className="card-title" id="status-title">Status</h4>
             <p className="card-text">
