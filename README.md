@@ -22,7 +22,7 @@ uses React to publish portfolio containing bio, apps, contact, resume
 
   ## Deployment:
 
-  Check the portfolio on GitHub Pages:
+  Check out the portfolio on GitHub here: https://tedheikkila.github.io/react-portfolio/ 
 
   ## License
   
