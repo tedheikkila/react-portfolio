@@ -13,12 +13,12 @@
     /* animation-name: title;
     animation-duration: 3s */
 }
-
-  /* @keyframes title {
-    0%   {background-color: black;}
-    50%  {background-color: rgb(36, 92, 196);}
-    100% {background-color: black;}
-  }  */
+    /* save animation, but don't use */
+    /* @keyframes title {
+        0%   {background-color: black;}
+        50%  {background-color: rgb(36, 92, 196);}
+        100% {background-color: black;}
+    }  */
 
 /* nav */
 .nav-list a {
