@@ -31,12 +31,12 @@ export default function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email)) {
+      if (!name) {
+    setErrorMessage('Please provide your name')
+      return
+    } else if (!validateEmail(email)) {
       setErrorMessage('Please enter a valid email');
       return;
-    } else if (!name) {
-      setErrorMessage('Please provide your name')
-      return
     } else if (!message) {
       setErrorMessage('Please type a message')
       return
@@ -55,6 +55,8 @@ export default function Contact() {
   return (
     <div className="form-container">
       <h3 id="form-greeting">Hi {name}</h3>
+      <br></br>
+      <p>all fields required</p>
       <form className="form">
         <div className="form-group row">
           <label htmlFor="input-name" className="col-sm-2 col-form-label">Name</label>

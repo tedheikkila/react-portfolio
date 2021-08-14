@@ -1,3 +1,8 @@
+#root {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Baloo 2'
+}
+
 /* title */
 .header {
     text-align: center;
@@ -7,19 +12,12 @@
 }
 
 .name-title {
-    padding: 20px;
+    padding: 30px;
     background-color: black;
     font-size: 50px;
-    /* animation-name: title;
-    animation-duration: 3s */
+    border-bottom: solid white 5px;
 }
-    /* save animation, but don't use */
-    /* @keyframes title {
-        0%   {background-color: black;}
-        50%  {background-color: rgb(36, 92, 196);}
-        100% {background-color: black;}
-    }  */
-
+    
 /* nav */
 .nav-list a {
     font-size: 30px;
