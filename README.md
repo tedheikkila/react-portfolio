@@ -22,13 +22,9 @@ uses React to publish portfolio containing bio, apps, contact, resume
 
   ## Deployment:
 
-  Check out the deployed app on:
+  Check out the deployed app:
 
-  <br>
-
-  <a href="https://tedheikkila.github.io/react-portfolio/" target="_blank">![GitHub](https://cdn.svgporn.com/logos/github.svg)</a>
-
-  <br>
+  <a href="https://tedheikkila.github.io/react-portfolio/" target="_blank"><img src="https://cdn.svgporn.com/logos/github.svg" width=200 height=100/></a>
 
   ## License
   
