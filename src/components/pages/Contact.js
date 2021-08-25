@@ -9,7 +9,6 @@ import { validateEmail } from '../../utils/helpers';
 export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('')
 
@@ -23,8 +22,6 @@ export default function Contact() {
     }
     else if (inputType === 'email') {
       setEmail(inputValue);
-    } else {
-      setMessage(inputValue);
     }
   };
 
@@ -37,9 +34,6 @@ export default function Contact() {
     } else if (!validateEmail(email)) {
       setErrorMessage('Please enter a valid email');
       return;
-    } else if (!message) {
-      setErrorMessage('Please type a message')
-      return
     } 
 
     setSuccessMessage('Thanks. Contact me via email:')
@@ -48,7 +42,6 @@ export default function Contact() {
 
     setName('');
     setEmail('');
-    setMessage('');
 
   };
 
@@ -83,20 +76,6 @@ export default function Contact() {
               onChange={handleInputChange}
               type="email"
               placeholder="email@mail.com"
-            />
-          </div>
-        </div>
-        <div className="form-group row">
-          <label htmlFor="input-message" className="col-sm-2 col-form-label">Message</label>
-          <div className="col-sm-10">
-            <input
-              type="text"
-              className="form-control"
-              id="input-message"
-              value={message}
-              name="message"
-              onChange={handleInputChange}
-              placeholder="Type question or comment here"
             />
           </div>
         </div>

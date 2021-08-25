@@ -94,6 +94,12 @@ export default function Apps() {
         </a>
         <p><a href="https://github.com/tedheikkila/ez-budget" target="_blank" rel="noreferrer">EZ Budget - PWA/IndexedDB</a></p>
       </div>
+      <div className="the-colony">
+        <a href="https://calm-eyrie-78703.herokuapp.com/" target="_blank" rel="noreferrer">
+          <img src="./assets/images/the-colony.png" width="320" height="270" alt="The Colony" />
+        </a>
+        <p><a href="https://github.com/tedheikkila/the-colony" target="_blank" rel="noreferrer">The Colony - React/MongoDB</a></p>
+      </div>
     </section>
   );
 }
